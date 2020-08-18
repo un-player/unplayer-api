@@ -40,6 +40,7 @@ user_id: integer
 ```
 
 **Respuesta:**
+```
 {
     "action": "GET 1.0\/user",
     "error": false,
@@ -50,6 +51,8 @@ user_id: integer
         "discord": "1234567890123457"
     }
 }
+```
+
 ***
 
 **`GET gtav/user/{gtav_id}`**
