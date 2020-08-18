@@ -39,4 +39,31 @@ type: enum("user", "samp", "gtav", "forum", "discord")
 user_id: integer
 ```
 
+**Respuesta:**
+{
+    "action": "GET 1.0\/user",
+    "error": false,
+    "ids": {
+        "user": 12345,
+        "forum": 12345,
+        "gtav": 12345,
+        "discord": "1234567890123457"
+    }
+}
+***
+
+**`GET gtav/user/{gtav_id}`**
+
+**Descripción**
+Obtener información básica del usuario GTA V
+
+**Respuesta:**
+{
+    "action": "GET 1.0\/gtav\/user\/1",
+    "name": "Nombre_Apellido",
+    "level": 10,
+    "banned": false,
+    "played_time": 12456,
+    "certification": 0
+}
 ***
