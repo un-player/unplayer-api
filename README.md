@@ -62,7 +62,7 @@ user_id: integer
 **`GET gtav/user/{gtav_id}`**
 
 **Descripción**
-Obtener información básica del usuario GTA V
+Obtener información básica del usuario.
 
 **Respuesta:**
 ```
@@ -98,7 +98,7 @@ Obtener información básica del usuario GTA V
 **`GET samp/user/{samp_id}`**
 
 **Descripción**
-Obtener información básica del usuario GTA V
+Obtener información básica del usuario.
 
 **Respuesta:**
 ```
