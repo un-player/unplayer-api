@@ -53,7 +53,7 @@ user_id: integer
 }
 ```
 
-***
+## Métodos RESTful disponibles: GTAV
 
 **`GET gtav/user/{gtav_id}`**
 
@@ -64,6 +64,25 @@ Obtener información básica del usuario GTA V
 ```
 {
     "action": "GET 1.0\/gtav\/user\/1",
+    "name": "Nombre_Apellido",
+    "level": 10,
+    "banned": false,
+    "played_time": 12456,
+    "certification": 0
+}
+```
+
+## Métodos RESTful disponibles: SAMP
+
+**`GET samp/user/{samp_id}`**
+
+**Descripción**
+Obtener información básica del usuario GTA V
+
+**Respuesta:**
+```
+{
+    "action": "GET 1.0\/samp\/user\/1",
     "name": "Nombre_Apellido",
     "level": 10,
     "banned": false,
