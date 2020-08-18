@@ -35,7 +35,7 @@ Recomendamos guardar esta ID para luego re-usarla, esta ID nunca cambia y es ún
 
 **Parámetros:**
 ```
-type: enum("unplayer", "samp", "gtav", "forum", "discord")
+type: enum("user", "samp", "gtav", "forum", "discord")
 user_id: integer
 ```
 
