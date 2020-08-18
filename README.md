@@ -68,7 +68,24 @@ Obtener información básica del usuario GTA V
     "level": 10,
     "banned": false,
     "played_time": 12456,
-    "certification": 0
+    "certification": 0,
+    "orgs": [
+        {
+            "org_id": 89,
+            "rank_id": 341,
+            "idx": 0
+        },
+        {
+            "org_id": 26,
+            "rank_id": 75,
+            "idx": 0
+        },
+        {
+            "org_id": 21,
+            "rank_id": 58,
+            "idx": 0
+        }
+    ]
 }
 ```
 
@@ -87,7 +104,16 @@ Obtener información básica del usuario GTA V
     "level": 10,
     "banned": false,
     "played_time": 12456,
-    "certification": 0
+    "certification": 0,
+    "faction_id": 0,
+    "faction_rank": 0,
+    "orgs": [
+        {
+            "org_id": 1148,
+            "rank_id": 884,
+            "idx": 1
+        }
+    ],
 }
 ```
 
