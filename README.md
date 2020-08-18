@@ -4,7 +4,7 @@
 
 ## Uso de la API
 
-**(Leer uso)[https://github.com/un-player/unplayer-api/blob/master/README.md]**
+**[Leer uso](https://github.com/un-player/unplayer-api/blob/master/README.md)**
 
 ## Generar API Keys
 
