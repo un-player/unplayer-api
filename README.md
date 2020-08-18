@@ -2,6 +2,10 @@
 
 **Documentación e información de la API de UN Player**
 
+## Uso de la API
+
+**(Leer uso)[https://github.com/un-player/unplayer-api/blob/master/README.md]**
+
 ## Generar API Keys
 
 Visita el siguiente enlace con tu cuenta de UN Player para generar el acceso: [Generar API Keys](https://unplayer.com/settings/keys)
