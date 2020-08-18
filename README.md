@@ -58,6 +58,7 @@ user_id: integer
 Obtener información básica del usuario GTA V
 
 **Respuesta:**
+```
 {
     "action": "GET 1.0\/gtav\/user\/1",
     "name": "Nombre_Apellido",
@@ -66,4 +67,7 @@ Obtener información básica del usuario GTA V
     "played_time": 12456,
     "certification": 0
 }
+```
+
 ***
+
