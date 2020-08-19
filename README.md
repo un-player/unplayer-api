@@ -93,6 +93,65 @@ Obtener información básica del usuario.
 }
 ```
 
+***
+
+**`GET gtav/org/{org_id}`**
+
+**Descripción**
+Obtener información de una ORG
+
+**Respuesta:**
+```
+{
+    "action": "GET 1.0\/gtav\/org\/20",
+    "id": 20,
+    "name": "Gobierno de San Andreas",
+    "members_count": 30,
+    "category": {
+        "id": 11,
+        "name": "Gubernamental",
+        "certification": 1
+    },
+    "members": [
+        {
+            "name": "Nahuel_Sobredo",
+            "user_id": 113,
+            "rank_id": 55,
+            "idx": 0
+        },
+        {
+            "name": "Jose_Rey",
+            "user_id": 3503,
+            "rank_id": 56,
+            "idx": 1
+        },
+        {
+            "name": "David_Page",
+            "user_id": 3706,
+            "rank_id": 56,
+            "idx": 1
+        }
+    ],
+    "ranks": [
+        {
+            "id": 55,
+            "name": "Alcalde",
+            "idx": "0"
+        },
+        {
+            "id": 392,
+            "name": "Concejal",
+            "idx": "7"
+        },
+        {
+            "id": 393,
+            "name": "Asistente",
+            "idx": "8"
+        }
+    ]
+}
+```
+
 ## Métodos RESTful disponibles: SAMP
 
 **`GET samp/user/{samp_id}`**
@@ -117,7 +176,7 @@ Obtener información básica del usuario.
             "rank_id": 884,
             "idx": 1
         }
-    ],
+    ]
 }
 ```
 
