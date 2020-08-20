@@ -182,3 +182,118 @@ Obtener información básica del usuario.
 
 ***
 
+**`GET samp/org/{org_id}`**
+
+**Descripción**
+Obtener información de una ORG.
+
+**Respuesta:**
+```
+{
+    "action": "GET 1.0\/samp\/org\/1150",
+    "id": 1150,
+    "name": "Taller River Plate",
+    "certification": 0,
+    "members_count": 29,
+    "members": [
+        {
+            "name": "Frank_Lindermann",
+            "user_id": 24700,
+            "rank_id": 906,
+            "idx": 3
+        },
+        {
+            "name": "Katrina_Rowling",
+            "user_id": 26875,
+            "rank_id": 905,
+            "idx": 2
+        }
+    ],
+    "ranks": [
+        {
+            "id": 904,
+            "name": "Mister",
+            "idx": "1"
+        },
+        {
+            "id": 905,
+            "name": "Gerente",
+            "idx": "2"
+        },
+        {
+            "id": 906,
+            "name": "Supervisor",
+            "idx": "3"
+        },
+        {
+            "id": 907,
+            "name": "Mec\u00e1nico Senior",
+            "idx": "1907"
+        },
+        {
+            "id": 911,
+            "name": "M\u00e9canico Junior",
+            "idx": "1911"
+        }
+    ]
+}
+```
+
+***
+
+**`GET samp/faction/{faction_id}`**
+
+**Descripción**
+Obtener información de una facción.
+
+**Respuesta:**
+```
+{
+    "action": "GET 1.0\/samp\/faction\/1",
+    "id": 1,
+    "name": "Gobierno",
+    "members_count": 51,
+    "members": [
+        {
+            "name": "Agustin_B\u00e1ez",
+            "user_id": 57273,
+            "rank_id": 1,
+            "idx": 0
+        },
+        {
+            "name": "Katrina_Rowling",
+            "user_id": 26875,
+            "rank_id": 2,
+            "idx": 1
+        }
+    ],
+    "ranks": [
+        {
+            "id": 1,
+            "name": "Presidente",
+            "idx": "0"
+        },
+        {
+            "id": 2,
+            "name": "Ministro(a)",
+            "idx": "1"
+        },
+        {
+            "id": 3,
+            "name": "Agente",
+            "idx": "2"
+        },
+        {
+            "id": 4,
+            "name": "Bur\u00f3crata",
+            "idx": "3"
+        },
+        {
+            "id": 5,
+            "name": "Asistente",
+            "idx": "4"
+        }
+    ]
+}
+```
+
